@@ -32,7 +32,7 @@ class EmployeeTest {
 		
 		e = p; // narrowing conversion - no okay to assign
 		m = p; // ibid
-		x = p  // ibid
+		x = p;  // ibid
 				
 		e = new Employee();
 		p = e; //widening conversion - okay to assign
